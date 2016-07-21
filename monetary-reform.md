@@ -8,15 +8,15 @@ Logo          	: true
 
 Author        	: By Frosti Sigurjonsson
 
-Toc Depth 		  : 2
+Toc Depth 		   : 2
 
-CSS Header      : body{position:relative;color:#323232} .sidenote {font-size:0.8em;} 
+CSS Header     : body{position:relative;color:#323232} .sidenote {font-size:0.8em;} 
 
-CSS Header      : @media (min-width:135ex){ .sidenote{position:absolute; right:-32ex; width: 32ex;} .sidenote p { text-align:left;}}
+CSS Header     : @media (min-width:135ex){ .sidenote{position:absolute; right:-32ex; width: 32ex;} .sidenote p { text-align:left;}}
 
-JS Footer:     : function offsetAnchor() {if(location.hash.length)window.scrollTo(window.scrollX, window.scrollY - 30);};window.addEventListener("hashchange",offsetAnchor);window.setTimeout(offsetAnchor, 1);
+JS Footer      : function offsetAnchor() {if(location.hash.length)window.scrollTo(window.scrollX, window.scrollY - 30);};window.addEventListener("hashchange",offsetAnchor);window.setTimeout(offsetAnchor, 1);
 
-CSS Header      : a {text-decoration: none;border-bottom: 2px rgba(255, 247, 45, 0.82) solid;color: #323232;} a:hover {  	background-color: rgba(255, 247, 45, 0.82);  	border-top: 1px rgba(255, 247, 45, 0.82) solid;  } .tocitem a, .tocitem a:hover{border:0;background-color:rgba(255,255,255,0);} 
+CSS Header     : a {text-decoration: none;border-bottom: 2px rgba(255, 247, 45, 0.82) solid;color: #323232;} a:hover {  	background-color: rgba(255, 247, 45, 0.82);  	border-top: 1px rgba(255, 247, 45, 0.82) solid;  } .tocitem a, .tocitem a:hover{border:0;background-color:rgba(255,255,255,0);} 
 
 
 
