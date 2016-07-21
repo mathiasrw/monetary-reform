@@ -1,3 +1,3 @@
 # monetary-reform
 
-howto.monetary-reform.info
+http://howto.monetary-reform.info
