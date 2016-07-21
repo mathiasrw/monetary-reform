@@ -1,10 +1,10 @@
 {
-  "name": "monetary-reform-a",
+  "name": "monetary-reform.info",
   "version": "1.0.0",
   "description": "A better monetary system for Iceland",
   "scripts": {
     "test": "echo Its all good!",
-    "build": "madoko monetary-reform.md && mv out/monetary-reform.html out/index.html"
+    "build": "madoko monetary-reform.md && mv out/monetary-reform.html out/index.html && sed -i -e 's/<title>&lt;h1&gt;/<title>/g' out/index.html && sed -i -e 's/&lt;\/h1&gt;<\/title>/<\/title>/g' out/index.html"
   },
   "devDependencies": {
     "madoko": "^1.0.1"

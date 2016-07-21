@@ -4,20 +4,15 @@ Subtitle      	: A better monetary system for Iceland
 
 Title Note    	: _Comissioned by the prime minister of Iceland_
 
-Logo          	: true
-
 Author        	: By Frosti Sigurjonsson
 
-Toc Depth 		   : 2
+HTML Meta			: property="fb:app_id" content="567358783435755"
 
-CSS Header     : body{position:relative;color:#323232} .sidenote {font-size:0.8em;} 
+Css 		  		: style.css
 
-CSS Header     : @media (min-width:135ex){ .sidenote{position:absolute; right:-32ex; width: 32ex;} .sidenote p { text-align:left;}}
+Logo          	: true
 
-JS Footer      : function offsetAnchor() {if(location.hash.length)window.scrollTo(window.scrollX, window.scrollY - 30);};window.addEventListener("hashchange",offsetAnchor);window.setTimeout(offsetAnchor, 1);
-
-CSS Header     : a {text-decoration: none;border-bottom: 2px rgba(255, 247, 45, 0.82) solid;color: #323232;} a:hover {  	background-color: rgba(255, 247, 45, 0.82);  	border-top: 1px rgba(255, 247, 45, 0.82) solid;  } .tocitem a, .tocitem a:hover{border:0;background-color:rgba(255,255,255,0);} 
-
+Toc Depth 		: 2
 
 
 [TITLE]
@@ -25,6 +20,8 @@ CSS Header     : a {text-decoration: none;border-bottom: 2px rgba(255, 247, 45, 
 [TOC]
 
 _This website version of "[Monetary Reform - A Better Monetary System For Iceland (2015)](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf)"" was created to make it easy to discuss and link to speficic parts of the documents. Pleaes edit on [github](http://github.com/mathiasrw/monetary-reform ) if you find any errors in the footnotes, layout or text._ 
+
+_Stil working on getting the figures converted_
 
 ----
 
@@ -4017,9 +4014,8 @@ Zarlenga, S.A. (2002). _The Lost Science of Money._ American Money Institute.
 _This website version of "[Monetary Reform - A Better Monetary System For Iceland (2015)](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf)"" was created to make it easy to discuss and link to speficic parts of the documents. Pleaes edit on [github](http://github.com/mathiasrw/monetary-reform ) if you find any errors in the footnotes, layout or text._ 
 
 
-~HtmlRaw
 
-
-  
+~ HtmlOnly
+[INCLUDE="page.js.html"]
 ~
   
