@@ -1,9 +1,20 @@
 Title         	: <h1>Monetary Reform</h1> 
+
 Subtitle      	: A better monetary system for Iceland 
-title Note    	: _Comissioned by the prime minister of Iceland_
+
+Title Note    	: _Comissioned by the prime minister of Iceland_
+
 Logo          	: true
+
 Author        	: By Frosti Sigurjonsson
-Toc Depth 		: 2
+
+Toc Depth 		  : 2
+
+CSS Header      : body{position:relative;color:#323232} .sidenote {font-size:0.8em;} 
+
+CSS Header      : @media (min-width:135ex){ .sidenote{position:absolute; right:-30ex; width: 30ex;} .sidenote p { text-align:left;}}
+
+CSS Header       : a {text-decoration: none;border-bottom: 2px rgba(255, 247, 45, 0.82) solid;color: #323232;} a:hover {  	background-color: rgba(255, 247, 45, 0.82);  	border-top: 1px rgba(255, 247, 45, 0.82) solid;  } .tocitem a, .tocitem a:hover{border:0;background-color:rgba(255,255,255,0);} 
 
 [TITLE]
 
@@ -78,6 +89,8 @@ countries have faced similar problems. Since 1970, bank crisis have
 occurred 147 times in 114 countries [2] causing serious reductions in
 output and increases in debt.
 
+
+
 Despite its frequent failures, the banking system has remained
 essentially unchanged and homogenous around the world. Various reform
 proposals have been put forward, many of them promising, but none have
@@ -93,9 +106,11 @@ _Reykjavik, March 20th 2015_
 
 Frosti Sigurjonsson
 
+~ sidenote
 [1] _Mervyn King, (2010)_
 
 [2] _Leaven L. & Valencia, (2012)_
+~
 
 ----
 
@@ -205,7 +220,9 @@ It can be estimated that by delegating the bulk of money creation in the
 economy to private banks, the Central Bank of Iceland foregoes estimated
 annual revenue of close to ISK 20 bn. [3]
 
-[3] _See section 7.1.5_
+~ sidenote
+[3] _See section [7.1.5](#7-1-5)_  
+~ 
 
 
 ### 1.2.5 The government is forced to guarantee bank deposits { - }
@@ -567,7 +584,6 @@ electronic payment to a third party on the owner's request. Deposits can
 therefore be used to make payments in the economy through debit cards
 and electronic fund transfers.
 
-[4] _Galbraith K. (1975) Money: Whence It Came, Where It Went, Ch. Ill, p. 18_
 
 A bank does not need to acquire money from a saver before it can make a
 loan to a borrower. Through some simple double entry accounting, when a
@@ -616,11 +632,7 @@ creators of deposit money.
 the act of lending creates deposits - the reverse of the sequence
 typically described in textbooks." [7]
 
-[5] _Bank of England (2014)_
 
-[6] _Bank of England (2014)_
-
-[7] _Bank of England (2014)_
 
 ----
 
@@ -648,6 +660,7 @@ eurosystem, money is primarily created by the extension of credit..."
 -Bundesbank, 2009_
 
 ---- 
+
 
 Note that a bank can also create money in this way when they buy assets,
 such as government bonds, property or buildings. Just as with a loan,
@@ -691,9 +704,6 @@ of Iceland (CBI) account for only 9%. [9] This situation is far from
 unique to Iceland; in most countries commercial banks create the bulk of
 the money supply.
 
-[8] _Central Bank of Iceland, year end 2014._
-
-[9] _See chapter 4.1 for a more detailed description of the money supply categories._
 
 ----
 
@@ -740,6 +750,21 @@ stability. The CBI is charged with the task of maintaining price
 stability, but it creates only a fraction of the money supply directly
 and must rely on indirect methods for affecting how much money the banks
 create.
+
+
+~ sidenote
+[4] _Galbraith K. (1975) Money: Whence It Came, Where It Went, Ch. Ill, p. 18_
+
+[5] _Bank of England (2014)_
+
+[6] _Bank of England (2014)_
+
+[7] _Bank of England (2014)_
+
+[8] _Central Bank of Iceland, year end 2014._
+
+[9] _See chapter 4.1 for a more detailed description of the money supply categories._
+~ 
 
 ## 3.2 How the Central Bank of Iceland creates money { - }
 
@@ -811,9 +836,6 @@ authorized to declare a numerical target for the inflation rate._
 long as such promotion is not inconsistent with its main objective
 stated in paragraph l._" [10]
 
-[10] _Act on the Central Bank of Iceland no. 36/2001_
-[11] _Central Bank of Iceland (2014b)_
-
 The CBI is currently committed to maintaining an inflation rate close to
 2.5%. n To manage the rate of inflation in the economy
 
@@ -833,6 +855,14 @@ performance by one single criterion may fail to react promptly to
 negative developments in other important criteria, such as the money
 supply, asset prices or the exchange rate.
 
+~ sidenote
+[10] _Act on the Central Bank of Iceland no. 36/2001_
+
+[11] _Central Bank of Iceland (2014b)_
+
+[12] _Central Bank of Iceland (2014c)_
+~ 
+
 ### 3.3.2 Promote an efficient and stable financial system { - }
 
 The CBI law states that [unofficial translation];
@@ -851,10 +881,11 @@ FME). The FME is concerned with the stability of individual financial
 institutions while the CBI oversees the stability of the system as a
 whole.
 
-[12] _Central Bank of Iceland (2014c)_
-
+~ sidenote
 [13] _Act on the Central Bank of Iceland no. 36/1986 and no. 36/2001_
-> "Central Bank of Iceland (2014d)
+
+[14] "Central Bank of Iceland (2014d)
+~
 
 ### 3.3.3 The Central Bank's toolkit { - }
 
@@ -951,9 +982,11 @@ therefore earns very little over time from its stock of reserves.
 
 Central bank reserves were ISK 31 bn by year-end 2014.
 
+~ sidenote
 [15] _Sérrit SBI (2012) Valkostir Íslands í gjaldmiðils-og gengismálum, page 491_ 
 
 [16] _Central Bank of Iceland (2013b)_
+~ 
 
 ### 3.4.4 The incentive for creating too much money { - }
 
@@ -1057,10 +1090,6 @@ By not providing reserves upon request, a central bank would be inviting
 either a liquidity crisis, or at best see interest rates rise to
 unwanted levels.
 
-[17] _As mentioned in the introduction and chapter 2, Holmes (1969), King_
-(1994), Constancio (2011) have expressed this view, and Moore's (1988)
-research has provided compelling evidence that banks lend before
-acquiring reserves.
 
 If the central bank refused to provide more reserves, then the bank
 needing reserves would be unable to make payments to other banks. It
@@ -1099,6 +1128,13 @@ its quota small or large. Each Bank Chairman sitting in his parlour may
 regard himself as the passive instrument of outside forces over which he
 has no control; yet the 'outside forces' may be nothing but himself and
 his fellow-chairmen, and certainly not his depositors."
+
+~ sidenote
+[17] _As mentioned in the introduction and chapter 2, Holmes (1969), King
+(1994), Constancio (2011) have expressed this view, and Moore's (1988)
+research has provided compelling evidence that banks lend before
+acquiring reserves._
+~ 
 
 ### 3.5.3 Restraining lending by raising interest rates { - }
 
@@ -1231,8 +1267,7 @@ Committee in England and chief advisor to the Bank of England, described
 the money multiplier model used in economics textbooks as
 
 > "...such an incomplete way of describing the process of the
-determination of the stock of money that it amounts to mis-instruction".
-[18]
+determination of the stock of money that it amounts to mis-instruction". [18]
 
 Yet, despite the fact that many economists and central bankers have long
 known this model to be a fallacy, it is still taught to students today
@@ -1241,8 +1276,6 @@ as factual description of how the monetary system operates.
 An empirical study by Werner [19] concludes that the money multiplier
 theory is wrong and banks individually create money out of nothing.
 
-[18] Goodhart (1984) 
-[19] Werner R. A. (2014a)
 
 
 This is confirmed in the 2014 Bank of England Quarterly Bulletin the
@@ -1263,6 +1296,14 @@ multiplier theory can be a useful way of introducing money and banking
 in economic textbooks, it is not an accurate description of how money is
 created in reality. " [20]
 
+~ sidenote
+[18] Goodhart (1984) 
+
+[19] Werner R. A. (2014a)
+
+[20] _Bank of England Quarterly Bulletin (2014)_
+~
+
 ### 3.6.2 The credit creation model { - }
 
 The credit creation model states that, rather than lending out money
@@ -1281,9 +1322,7 @@ of New York put it in 1969:
 > "In the real world, banks extend credit, creating deposits in the
 process, and look for the reserves later." [21]
 
-[20] _Bank of England Quarterly Bulletin (2014)_
 
-[21] _Holmes (1969), p. 73_
 
 Speaking on a panel in a conference in Toronto in April 2014, Lord Adair
 Turner, head of the Financial Services Authority 2008-2013, describes
@@ -1348,12 +1387,15 @@ settled at the end of the day. This is the opposite of the money
 multiplier theory, which implies that the central bank controls the
 money supply.
 
+~ sidenote
+[21] _Holmes (1969), p. 73_
+
 [22] _<www.positivemoney.org/2014/04/former-bank-regulator-adair-turner-says-economics-textbooks-teach-mythological-story-banks-full-transcript/>_
 
 [23] _Constancio (2011)_
 
 [24] _Moore (1988)_
-
+~ 
 
 
 # 4 The expanding money supply { - }
@@ -1419,7 +1461,7 @@ Categories of Money
 
 
 
-Notes & Coin I Demand Deposits ■ General Savings ■Time Deposits
+Notes & Coin I Demand Deposits ¦ General Savings ¦Time Deposits
 
 Fig. 4.1, Broad money, Source: Central Bank of Iceland
 
@@ -1485,7 +1527,7 @@ and monetary issues
 > * Being the deposit institutions bank and fostering a stable and healthy
 financial market."
 
-[25] _Act on the Central Bank of Iceland no. 36/1986_
+
 
 In spring 2001 Act number 36/1986 regarding the CBI was revised. The
 third article of the act, which defines the role of the CBI, now reads [unofficial translation]:
@@ -1515,12 +1557,15 @@ change may have been in line with what many central banks were doing at
 the time but with hindsight, it was not safe to abandon efforts to
 control the money supply.
 
+~ sidenote
+[25] _Act on the Central Bank of Iceland no. 36/1986_
+
 [26] _Act on the Central Bank of Iceland no. 36/2001_
 
 [27] _Petursson (2001)_
 
 [28] _Petursson (2001)_
-
+~ 
 
 ### 4.3.1 Influencing demand and lending { - }
 
@@ -1608,7 +1653,7 @@ investing in financial assets.
 By April 2008, loans to investment-related companies accounted for 46%
 of the loan portfolios of the three largest banks. [29]
 
-[29] _Special Investigation Commission Report, ch. 15.5.3_
+
 
 Demand Deposits by Sector
 
@@ -1620,8 +1665,8 @@ _50)0_
 
 ![picture5](images/picture5.jpg)
 
-■ Firms c Households □ Financial firms (other than banks) □ Holding
-Companies ■ Uncategorized
+¦ Firms c Households ? Financial firms (other than banks) ? Holding
+Companies ¦ Uncategorized
 
 Fig. 4.3 Source: Central Bank of Iceland
 
@@ -1648,10 +1693,6 @@ While an expansion in the financial sector is able to absorb a portion
 of the money supply thereby reducing the inflationary effect of
 expanding money supply, a contraction in the financial sector can free
 
-[30] _Richard A. Werner (2012). Towards a New Research Programme on_
-'Banking and the Economy' -Implications of the Quantity Theory of Credit
-for the Prevention and Resolution of Banking and Debt Crises,
-International Review of Financial Analysis, 25, 94-105
 
 up and direct a large portion of the money supply towards the real
 economy causing inflation. The money may also cause a sudden rise in
@@ -1662,6 +1703,16 @@ of the money supply, the tide can quickly turn with grave consequences
 for the real economy. A central bank that focuses on price stability in
 the real economy, while ignoring an expanding money supply and asset
 inflation, may therefore be inviting trouble further down the road.
+
+~ sidenote
+[29] _Special Investigation Commission Report, ch. 15.5.3_
+
+[30] _Richard A. Werner (2012). Towards a New Research Programme on
+'Banking and the Economy' -Implications of the Quantity Theory of Credit
+for the Prevention and Resolution of Banking and Debt Crises,
+International Review of Financial Analysis, 25, 94-105_
+
+~ 
 
 ### 4.4.2 The exchange rate and the price level { - }
 
@@ -1682,8 +1733,6 @@ inflation. [31]
 
 Fig. 4.4 Source: Central Bank of Iceland
 
-[31] _Estimates show that a 1% weakening of the ISK leads to 0.4% increase_
-in inflation - Petursson (2008)
 
 To quote the CBI on the effects of policy rate on the exchange rate:
 
@@ -1702,6 +1751,12 @@ excessive money creation could not be escaped. Between October 2007 and
 October 2009 the ISK depreciated by 50%, which consequently fed into the
 inflation rate; a year-on-year rate of around 12% in 2008 and 2009.
 
+~ sidenote
+[31] _Estimates show that a 1% weakening of the ISK leads to 0.4% increase
+in inflation - Petursson (2008)_
+~ 
+
+
 ### 4.4.3 Banks expanded the money supply by 40% annually { - }
 
 We will now take a closer look at the quick expansion of money that
@@ -1712,11 +1767,6 @@ In 2002 two of Iceland's largest banks were privatised. In the spring of
 2003 the newly privatized banks commenced to expand the money supply at
 accelerating pace. Between spring 2003 and fall 2008 the money supply
 increased seven-fold, an average increase of around 40% per year.
-
-[32] _Central Bank of Iceland (2014b)_
-
-[33] _See, for example, Baldursson & Portes' (2013) discussion on the carry_
-trade in Iceland in the mid to late 2000's.
 
 ISK Bn. 600
 
@@ -1772,6 +1822,15 @@ yet to be seen." [35]
 It is clear that CBI's warnings did little to curb the expansion. The
 commercial banks continued to expand the money supply at growing pace.
 
+
+~ sidenote
+[32] _Central Bank of Iceland (2014b)_
+
+[33] _See, for example, Baldursson & Portes' (2013) discussion on the carry_
+trade in Iceland in the mid to late 2000's.
+~ 
+
+
 ## 4.5 What enabled expansion of money in the 2000s { - }
 
 This chapter reviews the rapid expansion of the money supply in the
@@ -1821,34 +1880,22 @@ banks. Therefore lending came first, then the reserves.
 
 Central Bank of Iceland (2014g)
 
-[37] _Regulation on reserve requirements (Ice: Reglur um bindiskyldu), no._
-906/2003
+
 
 Base Money (MO) and Money Supply (Ml)
 
-_70)0_
-
-_60)0 Ml triples_
-
-from mid '06
-
-_50)0 to fall'08_
-
 Ml doubles from spring '03 to spring'06
 
-_30)0 200 100_
-
-_57)6_
-
 ![picture8](images/picture8.jpg)
-
-ooooooooooooooooooooooooooo
-
-oooooooooooooooooooooooooo ooooooooooooooooooooooooooo
 
 Base money (M0) Money supply (Ml)
 
 Fig. 4.7 Source: Central Bank of Iceland
+
+~ sidenote
+[37] _Regulation on reserve requirements (Ice: Reglur um bindiskyldu), no._
+906/2003
+~ 
 
 ### 4.5.2 The reserve requirement did not restrict money creation { - }
 
@@ -1877,13 +1924,15 @@ Indeed, the CBI's Monetary Bulletin in 2000 mentions:
 
 > "On first impression it may appear rather risky to allow the total
 amount of Central Bank facilities to be determined by bids from
-
-[1] _Central Bank of Iceland (2009)_
-
 credit institutions, but it should be remembered that the Bank attempts
 to manage short-term yields rather than money stock, with the aim of
 exerting an impact on other interest rates, currency movements, exchange
 rate and demand in the economy. Its ultimate goal is price stability."
+
+~ sidenote
+[38] _Central Bank of Iceland (2009)_
+~ sidenote
+
 
 #### 4.5.2.1 Banks grew in tandem reducing their need for reserves { - }
 
@@ -1937,7 +1986,7 @@ ISKBn 180
 
 _20)02 2003 2004 2005 2006 2007_
 
-■ Kaupthing (incl. Bunadarbankinn in 2002) ■Glitnir I I Landsbankinn
+¦ Kaupthing (incl. Bunadarbankinn in 2002) ¦Glitnir I I Landsbankinn
 Fig. 4.9 Source: Central Bank of Iceland
 
 In the period 2002 to 2007 the equity of the three big banks' increased
@@ -1956,7 +2005,7 @@ ISK Bn. 800
 
 _20)02 2003 2004 2005 2006 2007_
 
-■ Kaupthing (incl. Bunadarbankinn in 2002) ■ Glitnir Landsbankinn
+¦ Kaupthing (incl. Bunadarbankinn in 2002) ¦ Glitnir Landsbankinn
 
 Fig. 4.10 Source: Central Bank of Iceland
 
@@ -1985,9 +2034,6 @@ the rapid increase in money supply [unofficial translation]:
 > "Although today's central banks use policy rates to reach their
 inflation goals it is common that they also keep an eye on the money
 supply, specifically in order to increase their credibility. For
-
-[39] _Special Investigation Report (2010), part 1, page 166_
-
 example the European Central Bank has a certain money supply criteria
 that it follows in addition to its interest rate rules (a two pillar
 approach). The money supply is also used as an intermediate target when
@@ -2031,11 +2077,6 @@ liabilities of private banks form the bulk of the money supply, the
 payments system itself is dependent on banks' continuing liquidity and
 to a lesser extent, solvency. Any sign of a major bank failing
 
-[40] _Special Investigation Report (2010), part 1, page 187_
-
-[41] _Special Investigation Report (2010), part 1, page 165_
-
-[42] _Special Investigation Report (2010), part 1, page 165_
 
 therefore threatens the total collapse of the payments system, and the
 inability of members of the public to withdraw money or make payments.
@@ -2065,8 +2106,17 @@ the private financial system's creation of private credit and money."
 While the fractional reserve system allows private banks to create the
 money supply, further bank crisis may be inevitable.
 
-[43] _Adair Turner - speech to the South African Reserve Bank on Friday 2nd_
-Nov 2012
+~ sidenote
+[39] _Special Investigation Report (2010), part 1, page 166_
+
+[40] _Special Investigation Report (2010), part 1, page 187_
+
+[41] _Special Investigation Report (2010), part 1, page 165_
+
+[42] _Special Investigation Report (2010), part 1, page 165_
+
+[43] _Adair Turner - speech to the South African Reserve Bank on Friday 2nd Nov 2012_
+~ 
 
 # 5 Fractional reserve issues { - }
 
@@ -2112,11 +2162,10 @@ guarantee, known as 'deposit insurance', is set at 20,000 EUR but is
 payable in ISK. In the event of insolvency the TIF offers depositors to
 pay out a minimum guarantee in return for the depositors' claim to the
 failed bank. If the TIF is able to recover more than the minimum
-
-[44] _TryggingarsjoSur innstaeSueigenda og fjarfesta (2014)_
-
 guarantee, the proceeds go to the depositors, capped at the total
 deposits.
+
+
 
 The guarantee fund's assets are required to be the equivalent of at
 least 1% of all guaranteed deposits in the previous year in Iceland and
@@ -2138,6 +2187,14 @@ were in branches outside Iceland. The TIF contained only ISK 13 bn, or
 in no way sufficient to halt a bank run, or to reimburse more than a
 fraction of deposits of a failed bank.
 
+~ sidenote
+[44] _TryggingarsjoSur innstaeSueigenda og fjarfesta (2014)_
+
+[45] _Special Investigation Report (2010), part 5, pages 203-204_
+
+[46] _Special Investigation Report (2010), part 5, page 193_
+~
+
 Indeed, when a bank run began in 2008 the government had no option other
 than to declare that all deposits in domestic banks were guaranteed in
 full by the state.
@@ -2146,10 +2203,6 @@ The practice of maintaining the TIF in Iceland, gives the illusion that
 the banks themselves are funding the insurance against their failure,
 when the reality is that bank deposits must be guaranteed by the state,
 at taxpayers' expense.
-
-[45] _Special Investigation Report (2010), part 5, pages 203-204_
-
-[46] _Special Investigation Report (2010), part 5, page 193_
 
 ----
 
@@ -2169,6 +2222,7 @@ resumed the role of the old banks in running the payment system.
 liquidation. Deposit holders were given priority over other creditors of
 the banks. Thus, deposits in foreign branches were given priority to
 other claims at the old banks. [47]
+
 
 > According to the National Audit Office, the government injected roughly
 ISK 130 bn into the new banks. In addition the Icelandic government took
@@ -2191,6 +2245,16 @@ interest rates on deposits without regard to risk. Deposit insurance can
 therefore lead to more risk taking by banks, which increases the
 likelihood of bank failures.
 
+~ sidenote
+[47] _Arnason (2011), Baldursson (2011)_
+
+[48] _Government Offices of Iceland (2012), National Audit Office (2012)_
+
+[49] _This would reduce their capital ratio and thus prove self-limiting,
+unless continued retained earnings and capital raising maintains the
+high ratio._
+~ 
+
 ### 5.1.1 The too-big-to-fail problem { - }
 
 Each of the three large banks in Iceland is considered too big or too
@@ -2204,15 +2268,6 @@ money and would therefore be unable to do business or pay for
 necessities. Emergency liquidation of assets by a large failing bank
 would cause a price fall in financial markets and the problem could soon
 spread to other banks and companies. Governments will do what
-
-[47] _Arnason (2011), Baldursson (2011)_
-
-« Government Offices of Iceland (2012), National Audit Office (2012)
-
-[49] _This would reduce their capital ratio and thus prove self-limiting,_
-unless continued retained earnings and capital raising maintains the
-high ratio.
-
 it takes to prevent such a scenario from developing, usually at great
 cost to taxpayers.
 
@@ -2248,6 +2303,8 @@ lending has doubled from 30% in 1900 to 60% today. By contrast
 non-mortgage bank lending to companies for investment and non-secured
 lending to households has remained stable in relation to GDP. [50]
 
+
+
 In Iceland, the data (Fig 5.1) indicates that most new money created by
 banks was lent to borrowers that invest; in existing assets, in existing
 real estate or for speculation in financial assets while a minor share
@@ -2257,9 +2314,6 @@ technology, create new jobs, and build new housing or infrastructure.
 In the five year period from 2003 to 2008, loans extended by deposit
 institutions to domestic entities (excluding FX loans) increased by ISK
 1,400 bn. Thereof, approximately ISK 620 bn, or 45%, were loans
-
-[50] _The Great Mortgaging - Jorda, Taylor, Schularick - 2014_
-
 made to financial firms other than deposit institutions, holding
 companies and companies that are in the aforementioned "unknown" sector,
 with the increase in household loans around 40% of this figure. See Fig
@@ -2270,18 +2324,10 @@ created by banks was lent to financial and holding firms.
 
 Users of New Money: ISK Loans From Banks
 
-ISK Bn 2.000
-
 ![picture12](images/picture12.jpg)
 
-Firms (excluding finance and real estate)\* ■ Real estate firms
-
-Finance and holding companies □ Government
-
-Uncategorized
-
-Fig. 5.1 Source: Central Bank of Iceland. \* Includes real estate
-companies before 06/2011. \*\* Includes mortgages before 07/2007
+Fig. 5.1 Source: Central Bank of Iceland. - Includes real estate
+companies before 06/2011. - Includes mortgages before 07/2007
 
 The point here is not that banks do not want to lend to the real
 economy. Opportunities for lending to companies are however limited by
@@ -2298,9 +2344,8 @@ Adair Turner as
 
 > "A major cause of the crash of 2007 and the predominant reason why the
 post crisis recession was so deep and the recovery so weak and slow. "
-S1
+[51]
 
-[51] _Escaping the debt addiction - Adair Turner - 2014_
 
 Because the economy is dependent on using bank deposits as money, banks
 must comply with regulations (Basel) that favour lending against
@@ -2308,6 +2353,11 @@ existing collateral over lending towards business. The unwanted side
 effect of such regulation is to further divert bank lending towards
 existing assets rather than lending for growth.
 
+~ sidenote
+[50] _The Great Mortgaging - Jorda, Taylor, Schularick - 2014_
+
+[51] _Escaping the debt addiction - Adair Turner - 2014_
+~ 
 ## 5.3 Commercial banks control the money supply { - }
 
 ### 5.3.1 Is the CBI not in control? { - }
@@ -2346,13 +2396,11 @@ speculative financial markets and asset price bubbles.
 Banks that create too much money are not doing so out of ignorance. On
 the contrary, by using the power to create money within the current
 system, each bank is simply acting in the best short-term interest of
-its shareholders, by maximising the amount of interest-
-
-[52] _When the CBI raised interest rates in ISK the banks began offering_
-foreign loans domestically at very low rates.
-
-bearing loans issued, and therefore maximising interest income for the
+its shareholders, by maximising the amount of interestbearing loans issued, and therefore maximising interest income for the
 bank.
+
+
+
 
 It seems reasonable to expect that without reform of the fractional
 reserve system, commercial banks may keep lending and expanding the
@@ -2362,6 +2410,11 @@ in a position to stop them.
 Fortunately, there are some alternatives to the current fractional
 reserve system that could reduce the odds of financial crisis in the
 future.
+
+~ sidenote
+[52] _When the CBI raised interest rates in ISK the banks began offering_
+foreign loans domestically at very low rates.
+~ 
 
 # 6 Alternatives to fractional reserve { - }
 
@@ -2403,15 +2456,6 @@ Benes and Kumhof (2013) modelled the effects of a 100% reserves banking
 system in the US economy with a DSGE 55 model. According to Benes and
 Kumhof:
 
-[53] _Knight, F. (1933). "Memorandum on Banking Reform", March, Franklin D._
-Roosevelt Presidential Library, President's Personal File 431.
-
-[54] _Fisher, I. (1936). 100% Money. New York: Adelphi_
-
-Friedman (1948). "A Monetary and Fiscal Framework for Economic
-Stability". The American Economic Review 38.3: 245-264.
-
-[55] _Dynamic Stochastic General Equilibrium_
 
 > "Our analytical and simulation results fully validate Fisher's (1936)
 claims. The Chicago Plan could significantly reduce business cycle
@@ -2431,7 +2475,7 @@ unnecessary credit risks. Another advantage is the ability to drive
 steady state inflation to zero in an environment where liquidity traps
 do not exist, and where monetarism becomes feasible and desirable
 because the government does in fact control broad monetary aggregates. "
-56
+[56]
 
 In Fisher's description of the Chicago Plan (1936) other, more general
 benefits were also noted, among the return to a simpler banking system.
@@ -2439,6 +2483,18 @@ benefits were also noted, among the return to a simpler banking system.
 The Chicago Plan Revisited has helped to explain the flaws of the
 fractional reserve system and modelled one possible avenue for reform of
 the monetary system.
+
+~ sidenote
+[53] _Knight, F. (1933). "Memorandum on Banking Reform", March, Franklin D._
+Roosevelt Presidential Library, President's Personal File 431.
+
+[54] _Fisher, I. (1936). 100% Money. New York: Adelphi_
+
+Friedman (1948). "A Monetary and Fiscal Framework for Economic
+Stability". The American Economic Review 38.3: 245-264.
+
+[55] _Dynamic Stochastic General Equilibrium_
+~
 
 ## 6.2 Narrow banking { - }
 
@@ -2452,12 +2508,16 @@ two major functions of banks - deposit-taking and payments services, and
 lending - should take place within different institutions to avoid
 financial contagion. John Kay (2009) explains that
 
-[55] _Benes and Kumhof, The Chicaco Plan Revisited, 2012 57 See Litan_
-(1987), Pierce (1991) and Bryan (1991)
 
 > "Financial services companies must be structured so that in the event of
 an overall failure of the organization the utility can be readily
 separated from the casino."
+
+~ sidenote
+[56] _Benes and Kumhof, The Chicaco Plan Revisited, 2012 
+
+[57] _See Litan (1987), Pierce (1991) and Bryan (1991)_
+~ 
 
 ### 6.2.1 The narrow bank { - }
 
@@ -2501,10 +2561,15 @@ to deposits, the plan constitutes full reserve banking. Kay (2009)
 believes the most effective way to prevent any form of public subsidy to
 a failed financial institution is to require that retail deposits which
 
-[58] _Kobayakawa (2000)_
 
 qualify for deposit insurance be 100% supported by safe and liquid
 assets, ideally government securities. [59]
+
+~ sidenote
+[58] _Kobayakawa (2000)_
+
+[59] _Dixhoorn (2013)_
+~ 
 
 ### 6.2.2 The investment bank { - }
 
@@ -2521,6 +2586,13 @@ should be separate entities or subsidiaries of narrow banks. In any
 case, the separation needs to be monitored to ensure that investment
 banks do not use the assets of the narrow banks and that investment
 banks do not have access to the payments system of the narrow banks. [61]
+
+~ sidenote
+
+[60] _De Grauwe (2008)_
+
+[61] _Dixhoorn(2013)_
+~ 
 
 ### 6.2.3 Benefits of narrow banking { - }
 
@@ -2548,11 +2620,7 @@ In addition, Phillips (1995) mentions that under the reform monetary
 policy would be separate from credit policy. Today, in fact, we view
 these tasks, monitoring money and credit as "intertwined" as under
 
-[59] _Dixhoorn (2013)_
 
-[60] _De Grauwe (2008)_
-
-[61] _Dixhoorn(2013)_
 
 the current system monetary policy is simultaneously credit policy.
 However, in a reformed narrow banking system Phillips contends that the
@@ -2590,23 +2658,16 @@ in the activities that led to the instability. In this way Kotlikoffs
 system aims to better align risk and return in the economy and simplify
 the financial system. [63]
 
+
 All securities in the LPB system need to be evaluated by a Financial
 Services Authority (FSA). This is so it is clear what is being bought
 and sold. The FSA can hire private companies, working only for it, to
 verify, appraise, rate, custody and disclose all securities held by
 mutual funds. All of the securities must be assessed by the FSA. The
 point is not to ban any securities but to ensure that investors are
-informed. The LPB
-
-[62] _Kotlikoff (2010)_
-
-[63] _Kotlikoff (2010)_
-
-can only buy and sell 'FSA-processed' and disclosed securities at
+informed. The LPB can only buy and sell 'FSA-processed' and disclosed securities at
 auctions so all issuers of securities receive a fair price for their
 paper.
-
-[64] _)_
 
 According to Kotlikoff, since LPBs are not permitted to hold risky
 assets and hold no debt, capital requirements are not necessary.
@@ -2637,9 +2698,15 @@ hence claimed that the financial system will never fail under Limited
 Purpose Banking. Although shadow banks will be permitted to leverage,
 they are without limited liability and therefore risk averse.
 
+~ sidenote
+[62] _Kotlikoff (2010)_
+
+[63] _Kotlikoff (2010)_
+
 [64] _Chamley Kotlikoff & Polemarchakis (2012)_
 
 [65] _Goodman & Kotlikoff (2009)_
+~ 
 
 # 7 The Sovereign Money Proposal { - }
 
@@ -2745,7 +2812,7 @@ In a Sovereign Money System the CBI has direct control over money
 creation. By controlling the money supply directly the CBI can impact
 price levels more effectively than with its current tools.
 
-### 7.1.5 The income from creating money will accrue to the state { - }
+### 7.1.5 The income from creating money will accrue to the state { -, #7-1-5 }
 
 In the present system, the benefit from creating deposit money accrues
 to the banks rather than to the CBI and the state. Banks benefit
@@ -2820,12 +2887,14 @@ deposit boxes for money. This is in stark contrast to the present system
 where amounts in demand deposits are in fact liabilities of commercial
 banks.
 
-[66] _Overdrafts provided with Transaction Accounts would not allow the_
+~ sidenote
+[66] _Overdrafts provided with Transaction Accounts would not allow the
 banks to create additional money. When a customer with an approved
 overdraft draws down the overdraft, he is borrowing from pre-existing
 sovereign money owned by the bank. From the customer's point of view,
 the experience of using overdraft in the sovereign money system will be
-very similar to using an overdraft in the current system.
+very similar to using an overdraft in the current system._
+~ 
 
 ### 7.2.2 No need for Deposit Insurance { - }
 
@@ -3588,7 +3657,8 @@ In fact the objection backfires. Defining seigniorage as a tax involves
 recognising that allowing the commercial banks to create new money, as
 now, allows them to levy a private tax. Few people would agree that that
 is preferable to collecting the value of new official money as public
-revenue. " [61]
+revenue. " [67]
+
 
 For perfect competition to exist requires that there should be a large
 number of competitors, no barriers of entry or exit, perfect
@@ -3596,6 +3666,10 @@ information, zero switching costs for customers, non-economies of scale,
 rational customers etc. Such conditions do not apply to banking in
 general, and certainly not in Iceland, where three large banks have more
 than 90% of the market share.
+
+~ sidenote
+[67] _ Creating New Money, Huber and Robertson - 2000_
+~ 
 
 ### 9.5.3 What if the money creation committee makes mistakes? { - }
 
@@ -3630,7 +3704,6 @@ create money and decide what new money is used for. Also, banks are
 currently incentivized to create money based on what is best for their
 bottom line, but not on what is appropriate for the economy as a whole.
 
-[67] _ Creating New Money, Huber and Robertson - 2000_
 
 ### 9.5.5 A nationalization of the banking system { - }
 
@@ -3710,10 +3783,17 @@ requirements, increase capital risk weights for real estate lending
 above IRB levels, loan to income constraints on borrowers and by
 dedicating some banks to non real-estate lending. " [69]
 
+
 Post-crisis incentive schemes of central banks, and Turner's conclusions
 indicate that it is becoming acceptable for central banks to direct the
 supply of bank credit away from the financial sector and towards the
 real economy.
+
+~ sidenote
+[68] _ Modernising Money (2012)_
+
+[69] _ Lecture by Adair Turner - October 7th 2014 London_
+~ 
 
 ### 9.5.7 Development of alternative means of payment { - }
 
@@ -3726,9 +3806,7 @@ Regardless of monetary reform, there may be circumstances where
 alternative community currencies may be a useful response to economic
 crisis.
 
-[68] _ Modernising Money (2012)_
 
-[69] _ Lecture by Adair Turner - October 7th 2014 London_
 
 However, the motivation for creating money substitutes is strong in any
 monetary system as the issuer is rewarded with seigniorage. If money
@@ -3799,7 +3877,7 @@ Benes, J. & Kumhof, M. (2012). _The Chicago Plan Revisited._ International Monet
 
 Bezemer, D. (2009). _Banks As Social Accountants: Credit and Crisis Through an Accounting Lens._
 
-Brillembourg, A., & M. Khan (1979) _The Relationship Between Money, Income, and Prices: Has Money Mattered Historically?_Journal of Money, Credit, and Banking, August, 358-365   Central Bank of Iceland (2000). _The Financial System: Strengths and weaknesses._ Central Bank of Iceland Monetary Bulletin, no. 4. CentralBank of Iceland.
+Brillembourg, A., & M. Khan (1979) _The Relationship Between Money, Income, and Prices: Has Money Mattered Historically?_Journal of Money, Credit, and Banking, August, 358-365   Central Bank of Iceland (2000). _The Financial System: Strengths and weaknesses._ Central Bank of Iceland Monetary Bulletin, no. 4. CentralBank of Iceland.
 
 Central Bank of Iceland (2004). _Efnahagsleg áhrif breytinga á fyrirkomulagi lánsfjármögnunar íbú\_arhúsnæ\_is._ Sk\_rsla Se\_labankaÍslands til félagsmálará\_herra.
 
@@ -3829,7 +3907,7 @@ Central Bank of Iceland (2014d). _Financial Stability_. Website of Central Bank 
 
 Central Bank of Iceland (2014e). _Tæki og mi\_lun peningastefnunnar (e. Instruments and transmission mechanism)_Website of Central Bank of Iceland. Retrieved 2014, April 2nd from: www.sedlabanki.is
 
-Central Bank of Iceland (2014f). _Modifications to monetary policy instruments. Press release published on official website of Central Bank of Iceland. Retrieved 2014, May 25th from: ww.cb.is  Central Bank of Iceland (2014g)._ Breytingar á bindiskyldu lánastofnana í Se\_labanka Íslands (e. Changes to the Central Bank ofIceland reserve requirement for deposit institutions). _Press release published on official website of Central Bank of Iceland. Retrieved 2014, April 15th from: www.sedlabanki.is
+Central Bank of Iceland (2014f). _Modifications to monetary policy instruments. Press release published on official website of Central Bank of Iceland. Retrieved 2014, May 25th from: ww.cb.is  Central Bank of Iceland (2014g)._ Breytingar á bindiskyldu lánastofnana í Se\_labanka Íslands (e. Changes to the Central Bank ofIceland reserve requirement for deposit institutions). _Press release published on official website of Central Bank of Iceland. Retrieved 2014, April 15th from: www.sedlabanki.is
 
 Central Bank of Iceland (2014h). _Payments System._ Official website of Central Bank of Iceland. Retrieved 2014, June 25th from: www.cb.is
 
@@ -3853,7 +3931,7 @@ Friedman, M. (1988). _Money and the Stock Market._ Journal of Political Economy,
 
 Friedman, M. (1989). _Quantity theory of money._ The New Palgrave: Money. Editors Eatwell, J., Milgate, M. & Newman, P. The MacmillanPress Limited.
 
-Galbraith, K. (1975). _Money: Whence It Came, Where It Went_. Houghton Mifflin.   Goodhart, C. (1984). _Monetary Policy in Theory and Practice._ London: Macmillan.
+Galbraith, K. (1975). _Money: Whence It Came, Where It Went_. Houghton Mifflin.   Goodhart, C. (1984). _Monetary Policy in Theory and Practice._ London: Macmillan.
 
 Government Offices of Iceland (2012). _Endurreisn bankanna: 414 milljar\_ar króna (e. Recapitalization of the banks: 414 bn ISK)._ Pressrelease on the official website of the government offices of Iceland. Retrieved on 2014, April 30th from: www.stjornarrad.is
 
@@ -3919,13 +3997,13 @@ Petursson, T. (2001). _"N\_r rammi peningastefnunnar" (e. The transmission mecha
 
 Petursson, T. (2010). _Inflation control around the world: Why are some countries more successful than others?_ Inflation Targeting: LessonsLearned and Future Prospects. Editors D. Cobham, Ø.
 
-Prime Minister's Office (2008). _"Yfirl\_sing ríkisstjórnar (Statement by the Government)._ Press release on October 6th, 2008, Prime Minister'sOffice official website. Retrieved on May 30th, 2014 from: www.forsaetisraduneyti.is _Regulation on liquidity ratios (Ice: Reglur um lausafjárhlutfall o.fl.), no. 1055/2013._         Retrieved         on       2014,        April      10th        from: http://www.stjornartidindi.is/ _Regulation on reserve requirements (Ice: Reglur um bindiskyldu), no. 388/2002_.          Retrieved         on       2014,        April       10th        from: http://www.stjornartidindi.is/ _Regulation on reserve requirements (Ice: Reglur um bindiskyldu), no. 906/2003._         Retrieved         on       2014,        April       10th        from: http://www.stjornartidindi.is/
+Prime Minister's Office (2008). _"Yfirl\_sing ríkisstjórnar (Statement by the Government)._ Press release on October 6th, 2008, Prime Minister'sOffice official website. Retrieved on May 30th, 2014 from: www.forsaetisraduneyti.is _Regulation on liquidity ratios (Ice: Reglur um lausafjárhlutfall o.fl.), no. 1055/2013._         Retrieved         on       2014,        April      10th        from: http://www.stjornartidindi.is/ _Regulation on reserve requirements (Ice: Reglur um bindiskyldu), no. 388/2002_.          Retrieved         on       2014,        April       10th        from: http://www.stjornartidindi.is/ _Regulation on reserve requirements (Ice: Reglur um bindiskyldu), no. 906/2003._         Retrieved         on       2014,        April       10th        from: http://www.stjornartidindi.is/
 
 Reinhart, C. M. & Rogoff, K. S. (2008). _This Time is Different: Eight Centuries of Financial Folly._ Princeton University Press
 
 Ryan-Collins, J. Greenham, T., Jackson, A. & Werner, R. (2011). _Where Does Money Come From? A Guide to the UK Monetary and BankingSystem._ New Economics Foundation.
 
-Sanchez, M. (2005). _The Link Between Interest Rates and Exchange Rates: Do Contractionary Depreciations Make a Difference?_ European Central Bank Working Paper Series No. 548. European Central  
+Sanchez, M. (2005). _The Link Between Interest Rates and Exchange Rates: Do Contractionary Depreciations Make a Difference?_ European Central Bank Working Paper Series No. 548. European Central  
 
 Schularick, M. & Taylor, A. (2009). _Credit Booms Gone Bust: Monetary Policy, Leverage Cycles, and Financial Crises, 1870-2008_. NBERWorking Paper 15512. National Bureau of Economic Research.
 
@@ -3947,7 +4025,7 @@ Turner, A. (2011, September). _Credit Creation and Social Optimality._ Speech pr
 
 Turner, A. (2012, November) Speech presented at the South African Reserve Bank: _Monetary and Financial Stability: Lessons from the Crisis and from classic economics texts._ Financial Services Authority.
 
-Turner, A. (2013). Debt, Money and Mephistopheles: _How Do We Get Out of This Mess?_Address to the Cass Business School, 6th February 2013. Financial Services Authority.  
+Turner, A. (2013). Debt, Money and Mephistopheles: _How Do We Get Out of This Mess?_Address to the Cass Business School, 6th February 2013. Financial Services Authority.  
 
 Tymoigne, É. (2009). _Central Banking, Asset Prices and Financial Fragility._ Taylor and Francis e-Library: Routledge.
 
@@ -3967,19 +4045,13 @@ Williams, D. et al. (1976) _Money, Income and Causality: the UK Experience._ Ame
 
 Yamaguchi, K. (2011). _Workings of a Public Money System of Open Macroeconomics: Modelling the American Monetary Act Completed._ Working Paper.
 
-Zarlenga, S.A. (2002). _The Lost Science of Money._ American Money Institute.   
+Zarlenga, S.A. (2002). _The Lost Science of Money._ American Money Institute.   
 
 ----
 
-_Section 10 is in Icelandic and can be seen in the original document._
+_Section 10 is in Icelandic and can be seen in [the original document](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf)._
+
+--
 
 
-
-
-
-[FOOTNOTES]
-
-----
-
-
-_This full text website version of "[Monetary Reform - A Better Monetary System For Iceland ( 2015)](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf)"" was created to make it easy to link to/discuss speficic parts of the documents and should be edited on [github](http://github.com/mathiasrw/monetary-reform ) if you find any errors in the layout or text_ 
+_This website version of "[Monetary Reform - A Better Monetary System For Iceland ( 2015)](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf)"" was created to make it easy to link to/discuss speficic parts of the documents and should be edited on [github](http://github.com/mathiasrw/monetary-reform ) if you find any errors in the layout or text_ 
