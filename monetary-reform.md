@@ -19,7 +19,7 @@ Toc Depth 		: 2
 
 [TOC]
 
-_This website version of "[Monetary Reform - A Better Monetary System For Iceland (2015)](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf)"" was created to make it easy to discuss and link to speficic parts of the documents. Pleaes edit on [github](http://github.com/mathiasrw/monetary-reform ) if you find any errors in the footnotes, layout or text._ 
+_This website version of "[Monetary Reform - A Better Monetary System For Iceland (2015)](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf)" was created to make it easy to discuss and link to speficic parts of the documents. Please edit on [github](https://github.com/mathiasrw/monetary-reform/blob/master/monetary-reform.md ) if you find any errors in the footnotes, layout or text._ 
 
 _Stil working on getting the figures converted_
 
@@ -4011,7 +4011,7 @@ Zarlenga, S.A. (2002). _The Lost Science of Money._ American Money Institute.
 ----
 
 
-_This website version of "[Monetary Reform - A Better Monetary System For Iceland (2015)](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf)"" was created to make it easy to discuss and link to speficic parts of the documents. Pleaes edit on [github](http://github.com/mathiasrw/monetary-reform ) if you find any errors in the footnotes, layout or text._ 
+_This website version of "[Monetary Reform - A Better Monetary System For Iceland (2015)](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf)" was created to make it easy to discuss and link to speficic parts of the documents. Please edit on [github](https://github.com/mathiasrw/monetary-reform/blob/master/monetary-reform.md) if you find any errors in the footnotes, layout or text._ 
 
 
 
