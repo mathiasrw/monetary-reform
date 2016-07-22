@@ -33,7 +33,7 @@ $(document).ready(function(){
 			})
 		.each(function() {
 
-			var localUrl = 'http:/'+location.host+location.pathname+'#'+$(this).attr('id')
+			var localUrl = 'http://'+location.host+location.pathname+'#'+$(this).attr('id')
 			var msg = title+': '
 					+$(this).text()
 						.replace(/^[\d\.]+/,'')
