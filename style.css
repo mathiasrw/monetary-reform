@@ -33,10 +33,11 @@ a:hover {
 } 
 
 .tocitem a, 
-.tocitem a:hover {
+.tocitem a:hover , 
+.header-share-links a, 
+.header-share-links a:hover {
 	border:0;
-	background-color:
-	rgba(255,255,255,0);
+	background-color:rgba(230, 230, 218, 0.23);
 } 
 
 
