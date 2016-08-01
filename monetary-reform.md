@@ -6,13 +6,13 @@ Title Note    	: _Comissioned by the prime minister of Iceland_
 
 Author        	: By Frosti Sigurjonsson
 
-HTML Meta			: property="fb:app_id" content="567358783435755"
+HTML Meta			   : property="fb:app_id" content="567358783435755"
 
-Css 		  		: style.css
+Css 		  		     : style.css
 
 Logo          	: true
 
-Toc Depth 		: 2
+Toc Depth 		   : 2
 
 
 [TITLE]
@@ -4006,7 +4006,7 @@ Zarlenga, S.A. (2002). _The Lost Science of Money._ American Money Institute.
 
 ----
 
->   Section 10 is in Icelandic and can be seen in [the original document](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf)._
+>   Section 10 is in Icelandic and can be seen in [the original document](https://www.forsaetisraduneyti.is/media/Skyrslur/monetary-reform.pdf).
 
 ----
 
