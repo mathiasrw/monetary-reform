@@ -484,17 +484,18 @@ chronic inflation in the 1970s to the 1980s, with annual inflation
 reaching a high of 83% in 1983. In 1981 it was considered necessary to
 redenominate the krona with 100 units being replaced by 1 new unit.
 
-Inflation : Annual Changes in the Consumer Price Index
 
 
+~ Center 
 
-![picture0](images/picture0.jpg)
+**Inflation : Annual Changes in the Consumer Price Index**
 
-![picture1](images/picture1.jpg)
+![picture1](images/pic0.png)
+
+_Fig 2.1. Source: Statistics Iceland_
+~
 
 
-
-Fig 2.1. Source: Statistics Iceland
 
 After the moderate 1990s came the booming 2000s that ended with a
 dramatic crash in 2008. Banks collapsed and the value of the ISK dropped
@@ -554,6 +555,20 @@ and setting a reserve requirement that banks must abide by, the Central
 Bank is assumed to control the total money supply available to the
 economy.
 
+----
+
+~ Center 
+
+**Inflation : Annual Changes in the Consumer Price Index**
+
+![picture1](images/pic0.png)
+
+_Fig 2.1. Source: Statistics Iceland_
+~
+
+----
+
+
 However, the reality in Iceland and elsewhere is very different.
 Commercial banks create new money when they make loans and are not as
 constrained in their money creation as the multiplier model suggests. In
@@ -580,6 +595,14 @@ a promise to deliver cash on demand to the deposit owner, or to make an
 electronic payment to a third party on the owner's request. Deposits can
 therefore be used to make payments in the economy through debit cards
 and electronic fund transfers.
+
+
+~ Center 
+
+![picture1](images/pic1.png)
+
+~
+
 
 
 A bank does not need to acquire money from a saver before it can make a
@@ -676,6 +699,16 @@ as payment. Through simple double entry bookkeeping, the liability (the
 deposit account) is debited and the asset (such as a loan account) is
 credited. Both sides of the balance sheet are reduced.
 
+
+---
+
+~ Center 
+
+![picture1](images/pic1.png)
+
+~
+
+----
 
 It should be noted that only commercial banks and savings institutions
 (deposit taking institutions) are able to create money in the form of
