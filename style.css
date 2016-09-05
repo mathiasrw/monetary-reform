@@ -87,6 +87,12 @@ html>body.madoko {
 		border: 10px solid rgb(56,52,66);
 		padding: 1em 0.5em;
 	}
+	blockquote {
+	    	margin: 1em;
+	}
+	.madoko p { 
+		text-align:left;
+	}
 }
 
 
