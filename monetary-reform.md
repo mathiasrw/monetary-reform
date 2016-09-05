@@ -1378,7 +1378,7 @@ money supply.
 ~ sidenote
 ^21^ _Holmes (1969), p. 73_
 
-^22^ _<www.positivemoney.org/2014/04/former-bank-regulator-adair-turner-says-economics-textbooks-teach-mythological-story-banks-full-transcript/>_
+^22^ _http://www.positivemoney.org/2014/04/former-bank-regulator-adair-turner-says-economics-textbooks-teach-mythological-story-banks-full-transcript/_
 
 ^23^ _Constancio (2011)_
 
