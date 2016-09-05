@@ -487,11 +487,7 @@ redenominate the krona with 100 units being replaced by 1 new unit.
 
 
 ~ Center 
-
-**Inflation : Annual Changes in the Consumer Price Index**
-
-![picture1](images/pic0.png)
-
+![Inflation: Annual Charget in the Consumer Price Index](images/fig-2-1.png)
 _Fig 2.1. Source: Statistics Iceland_
 ~
 
@@ -555,18 +551,7 @@ and setting a reserve requirement that banks must abide by, the Central
 Bank is assumed to control the total money supply available to the
 economy.
 
-----
 
-~ Center 
-
-**Inflation : Annual Changes in the Consumer Price Index**
-
-![picture1](images/pic0.png)
-
-_Fig 2.1. Source: Statistics Iceland_
-~
-
-----
 
 
 However, the reality in Iceland and elsewhere is very different.
@@ -596,12 +581,6 @@ electronic payment to a third party on the owner's request. Deposits can
 therefore be used to make payments in the economy through debit cards
 and electronic fund transfers.
 
-
-~ Center 
-
-![picture1](images/pic1.png)
-
-~
 
 
 
@@ -699,16 +678,6 @@ as payment. Through simple double entry bookkeeping, the liability (the
 deposit account) is debited and the asset (such as a loan account) is
 credited. Both sides of the balance sheet are reduced.
 
-
----
-
-~ Center 
-
-![picture1](images/pic1.png)
-
-~
-
-----
 
 It should be noted that only commercial banks and savings institutions
 (deposit taking institutions) are able to create money in the form of
@@ -1473,13 +1442,10 @@ one could argue that M2 could also be used as a measure of
 money available in the economy "on demand". M2 is close to being twice
 the amount of Ml.
 
-Categories of Money
-
-![picture2](images/picture2.jpg)
-
-Notes & Coin I Demand Deposits ¦ General Savings ¦Time Deposits
-
-Fig. 4.1, Broad money, Source: Central Bank of Iceland
+~ center
+![Category of Money](images/fig-4-1.png)
+_Fig. 4.1, Broad money, Source: Central Bank of Iceland_
+~ 
 
 ## 4.2 Deposits increased by 19-fold in 14 years { - }
 
@@ -1487,9 +1453,10 @@ In the fourteen years from 1994-2008 broad money increased by 900%.
 While the nominal GDP of Iceland roughly tripled in these fourteen
 years, broad money increased tenfold.
 
-![picture3](images/picture3.jpg)
-
-Table 4.1 Data: Central Bank of Iceland
+~ center
+![M1, M2 & M3 explained](images/table-4-1.png)
+_Table 4.1 Data: Central Bank of Iceland_
+~ 
 
 Although all categories within broad money contributed to its tenfold
 increase, two categories stand out: Demand Deposits and Time Deposits,
@@ -1647,11 +1614,11 @@ inflation during this period was 'merely' 5.5%. What
 happened to all the money? Why did it not cause more inflation? These
 questions are addressed in the following section.
 
-![picture4](images/picture4.jpg)
-
-Fig 4.2 Source: Central Bank of Iceland, Statistics Iceland, Datamarket,
-author's calculations
-
+~ center
+![Changes in Money Supply and Price Level 1961-2012](images/fig-4-2.png)
+_Fig 4.2 Source: Central Bank of Iceland, Statistics Iceland, Datamarket,
+author's calculations_
+~
 
 ### 4.4.1 Credit creation and expanding financial sector { - }
 
@@ -1668,11 +1635,11 @@ of the loan portfolios of the three largest banks. ^29^
 
 
 
-Demand Deposits by Sector
 
-![picture5](images/picture5.jpg)
-
-Fig. 4.3 Source: Central Bank of Iceland
+~ center
+![Demand Deposits by Sector](images/fig-4-3.png)
+_Fig. 4.3 Source: Central Bank of Iceland_
+~
 
 Fig 4.3 shows how the money supply (Demand Deposits) by sector. All
 sectors grew faster after 2006, but deposits in the financial sector
@@ -1731,10 +1698,10 @@ Imported goods constitute a large portion of the consumption basket in
 Iceland. Therefore, a strengthening of the ISK reduces measured
 inflation. ^31^
 
-![picture6](images/picture6.jpg)
-
-Fig. 4.4 Source: Central Bank of Iceland
-
+~ center
+![Exchange Range Index For ISK and CBI Interest Rates](images/fig-4-4.png)
+_Fig. 4.4 Source: Central Bank of Iceland_
+~
 
 To quote the CBI on the effects of policy rate on the exchange rate:
 
@@ -1782,13 +1749,10 @@ rates from 5% to 18%. (See Fig. 4.6). Despite these dramatic increases
 in policy rates by the CBI, the commercial banks proceeded to expand the
 money supply until halted by the crash of 2008.
 
-Central Bank Interest Rates
-
-
-
-![picture7](images/picture7.jpg)
-
-Fig. 4.6 Source: Central Bank of Iceland
+~ center
+![Central Bank Interest Rates](images/fig-4-6.png)
+_Fig. 4.6 Source: Central Bank of Iceland_
+~ 
 
 As early as 2000, the CBI warned that rapid growth in lending could lead
 to crisis: [Our emphasis]
@@ -1885,15 +1849,10 @@ banks. Therefore lending came first, then the reserves.
 
 
 
-
-
-Ml doubles from spring '03 to spring'06
-
-![picture8](images/picture8.jpg)
-
-Base money (M0) Money supply (Ml)
-
-Fig. 4.7 Source: Central Bank of Iceland
+~ center
+![Base money (M0) Money supply (Ml) - Ml doubles from spring '03 to spring '06 - M1 triples from mid '06 to fall '08](images/fig-4-7.png)
+_Fig. 4.7 Source: Central Bank of Iceland_
+~
 
 ~ sidenote
 ^36^ _Central Bank of Iceland (2014g)_
@@ -1959,19 +1918,12 @@ As can be seen in Fig. 4.8 the assets of the Icelandic banks grew more
 or less in tandem throughout their expansion period, which reduced their
 need for reserves.
 
-Internal Growth of Big Three Banks
 
-_10)0%_
 
-_80)% 60% 40% 20% 0% -20%_
-
-_20)04 2005 2006 2007 2008_
-
--*-Glitnir Landsbankinn Kaupthing
-
-Fig. 4.8 Source: Special Investigation Committee
-
-![picture9](images/picture9.jpg)
+~center
+![Internal Growth of Big Three Banks](images/fig-4-8.png)
+_Fig. 4.8 Source: Special Investigation Committee_
+~
 
 ### 4.5.3 Equity requirements did not restrict money creation { - }
 
@@ -1982,16 +1934,11 @@ three big banks increased dramatically in the years before the financial
 crisis. Their combined profits (right axis) rose from just under ISK 11
 bn in 2002 to roughly ISK 140 bn in 2007.
 
-Profits of Big Three Commerical Banks
 
-ISKBn 180
-
-![picture10](images/picture10.jpg)
-
-_20)02 2003 2004 2005 2006 2007_
-
-¦ Kaupthing (incl. Bunadarbankinn in 2002) ¦Glitnir I I Landsbankinn
-Fig. 4.9 Source: Central Bank of Iceland
+~ center
+![Profits of Big Three Commerical Banks](images/fig-4-9.png)
+_Fig. 4.9 Source: Central Bank of Iceland_
+~
 
 In the period 2002 to 2007 the equity of the three big banks' increased
 by a factor of ten; from ISK 70 bn to ISK 695 bn (Fig 4.10). Given that
@@ -2001,17 +1948,11 @@ creation grew ten-fold in these five years. Indeed the combined assets
 of the three big banks went from roughly ISK 1,000 bn to ISK 10,000 bn
 in the five-year period.
 
-Growing Equity of the Big Three Commerical Banks
 
-ISK Bn. 800
-
-![picture11](images/picture11.jpg)
-
-_20)02 2003 2004 2005 2006 2007_
-
-¦ Kaupthing (incl. Bunadarbankinn in 2002) ¦ Glitnir Landsbankinn
-
-Fig. 4.10 Source: Central Bank of Iceland
+~ center
+![Growing Equity of the Big Three Commerical Banks](images/fig-4-10.png)
+_Fig. 4.10 Source: Central Bank of Iceland_
+~
 
 ### 4.5.4 The CBI's higher interest rates did not reduce money creation { - }
 
@@ -2325,12 +2266,11 @@ with the increase in household loans around 40% of this figure. See Fig
 In the last two years of this period almost two thirds of the money
 created by banks was lent to financial and holding firms.
 
-Users of New Money: ISK Loans From Banks
 
-![picture12](images/picture12.jpg)
-
-Fig. 5.1 Source: Central Bank of Iceland. - Includes real estate
-companies before 06/2011. - Includes mortgages before 07/2007
+~center
+![Users of New Money: ISK Loans From Banks](images/fig-5-1.png)
+_Fig. 5.1 Source: Central Bank of Iceland. <br>- Includes real estate companies before 06/2011. <br>- Includes mortgages before 07/2007
+~
 
 The point here is not that banks do not want to lend to the real
 economy. Opportunities for lending to companies are however limited by
