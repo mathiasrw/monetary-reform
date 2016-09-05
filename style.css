@@ -124,3 +124,14 @@ html>body.madoko {
 .header-share-links {
 	display:none;
 }
+
+
+img{
+    width: 98%;
+    border: 1px solid rgba(56,52,66,0.5);
+    box-shadow: 3px 4px 3px #ddd;
+    padding: 1%;
+    background: white;
+}
+	
+}
