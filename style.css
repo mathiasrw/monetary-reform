@@ -34,10 +34,10 @@ a:hover {
 
 .tocitem a, 
 .tocitem a:hover , 
-.header-share-links a, 
-.header-share-links a:hover {
+a.share-links, 
+a.share-links:hover {
 	border:0;
-	background-color:rgba(230, 230, 218, 0.23);
+	background-color:#f9f9f6;
 } 
 
 
@@ -126,8 +126,13 @@ html>body.madoko {
 	}
 }
 
-
-.header-share-links {
+.chatlink,
+h1 .share-links,
+h2 .share-links,
+h3 .share-links,
+h4 .share-links,
+h5 .share-links,
+h6 .share-links {
 	display:none;
 }
 
@@ -140,4 +145,19 @@ img{
     background: white;
 }
 	
+
+
+
+.dialogius{
+	position:relative;
 }
+
+.dialogius>div.chatlink{
+	position:absolute;
+	left:-21px;
+	top:2px;
+}
+
+
+
+
