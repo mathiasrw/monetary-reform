@@ -10,7 +10,8 @@ if(e&&1===a.nodeType)while(c=e[d++])a.removeAttribute(c)}}),hb={set:function(a,b
 
 //var disqus_shortname,disqus_identifier,disqus_url;!function(i){var s={};i.fn.extend({inlineDisqussions:function(a){var d={identifier:"disqussion",displayCount:!0,highlighted:!1,position:"right",background:"white",maxWidth:9999};s=i.extend({},d,a),0===i("#disqussions_wrapper").length&&i('<div id="disqussions_wrapper"></div>').appendTo(i("body")),0===i("#disqus_thread").length?i('<div id="disqus_thread"></div>').appendTo("#disqussions_wrapper"):e(),s.highlighted&&i('<div id="disqussions_overlay"></div>').appendTo(i("body")),i(this).each(function(s){t(s,i(this))}),s.displayCount&&n(),i("html").click(function(s){0===i(s.target).parents("#disqussions_wrapper, .main-disqussion-link-wrp").length&&o()})}});var t=function(t,e){var n;if(e.attr("data-disqus-identifier"))n=e.attr("data-disqus-identifier");else{for(;i('[data-disqus-identifier="'+window.location.pathname+s.identifier+"-"+t+'"]').length>0;)t++;n=window.location.pathname+s.identifier+"-"+t}var r=s.highlighted?"disqussion-link disqussion-highlight":"disqussion-link",u=i('<a class="'+r+'" />').attr("href",window.location.pathname+s.identifier+"-"+t+"#disqus_thread").attr("data-disqus-identifier",n).attr("data-disqus-url",window.location.href+s.identifier+"-"+t).attr("data-disqus-position",s.position).text("+").wrap('<div class="disqussion" />').parent().appendTo("#disqussions_wrapper");u.css({top:e.offset().top+20,left:"right"==s.position?e.offset().left+e.outerWidth():e.offset().left-u.outerWidth()}),e.attr("data-disqus-identifier",n).mouseover(function(){u.addClass("hovered")}).mouseout(function(){u.removeClass("hovered")}),u.delegate("a.disqussion-link","click",function(s){s.preventDefault(),i(this).is(".active")?(s.stopPropagation(),o()):a(i(this),function(i){d(i)})})},e=function(){if(0===i("a.main-disqussion-link").length){var s=i('<a class="main-disqussion-link" />').attr("href",window.location.pathname+"#disqus_thread").text("Comments").wrap('<h2 class="main-disqussion-link-wrp" />').parent().insertBefore("#disqus_thread");s.delegate("a.main-disqussion-link","click",function(s){s.preventDefault(),i(this).is(".active")?s.stopPropagation():a(i(this),function(i){d(i,!0)})})}},a=function(s,t){if(disqus_identifier=s.attr("data-disqus-identifier"),disqus_url=s.attr("data-disqus-url"),window.DISQUS)DISQUS.reset({reload:!0,config:function(){this.page.identifier=disqus_identifier,this.page.url=disqus_url}});else{var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="http://"+disqus_shortname+".disqus.com/embed.js",i("head").append(e)}i("a.disqussion-link, a.main-disqussion-link").removeClass("active").filter(s).addClass("active"),s.is(".disqussion-highlight")&&r(disqus_identifier),t(s)},n=function(){if(!i('script[src*="disqus.com/count.js"]').length){var s=document.createElement("script");s.type="text/javascript",s.async=!0,s.src="http://"+disqus_shortname+".disqus.com/count.js",i("head").append(s);var t=0,e=setInterval(function(){t++,"object"==typeof DISQUSWIDGETS&&(i(".disqussion-link").filter(function(){return i(this).text().match(/[1-9]/g)}).addClass("has-comments"),clearInterval(e)),t>10&&clearInterval(e)},1e3)}},d=function(t,e){var a={};e===!0?(i("#disqus_thread").removeClass("positioned"),a={position:"static",width:"auto"}):(i("#disqus_thread").addClass("positioned"),a={position:"absolute"}),a.backgroundColor=s.background;var n={};"right"==t.attr("data-disqus-position")?n={top:t.offset().top,left:t.offset().left+t.outerWidth(),width:Math.min(parseInt(i(window).width()-(t.offset().left+t.outerWidth()),10),s.maxWidth)}:"left"==t.attr("data-disqus-position")&&(n={top:t.offset().top,left:t.offset().left-Math.min(parseInt(t.offset().left,10),s.maxWidth),width:Math.min(parseInt(t.offset().left,10),s.maxWidth)}),i("#disqus_thread").stop().fadeIn("fast").animate(n,"fast").css(a)},o=function(){i("#disqus_thread").stop().fadeOut("fast"),i("a.disqussion-link").removeClass("active"),i("#disqussions_overlay").fadeOut("fast"),i("body").removeClass("disqussion-highlight"),i("[data-disqus-identifier]").removeClass("disqussion-highlighted")},r=function(s){i("body").addClass("disqussion-highlight"),i("#disqussions_overlay").fadeIn("fast"),i("[data-disqus-identifier]").removeClass("disqussion-highlighted").filter('[data-disqus-identifier="'+s+'"]:not(".disqussion-link")').addClass("disqussion-highlighted")}}(jQuery);
 
-function flexHash(str) {
+function flexHash(str,scope) {
+  scope=scope||5;
   str = str.match(/\b\w{5,6}/g);
 
   if(null===str){
@@ -26,7 +27,7 @@ function flexHash(str) {
     hash = (hash * 33) ^ str.charCodeAt(--i);
   }
 
-  return hash >>> 0;
+  return (hash >>> 0)%Math.pow(10,scope);
 }
 
 function headerLinkAction(hash){
@@ -38,13 +39,39 @@ function headerLinkAction(hash){
 		return false;
 	}
 
+function compare(a,b) {
+	  if (a.hash < b.hash)
+	    return -1;
+	  if (a.hash > b.hash)
+	    return 1;
+	  return 0
+	}
+	var elId = [];
+	$('.body>p').each(function(){var el=$(this), txt = el.text();if(140<txt.length)elId.push({el:el, hash: flexHash(txt)});})
+	elId.sort(compare);
+
+	for (var i = 0; i < elId.length; i++) {
+		if(0<i && elId[i-1].hash===elId[i].hash){
+			elId[i].el.attr('id','p'+flexHash(elId[i].el.text(),7));
+			console.log(elId[i].el);		
+		} else {
+			elId[i].el.attr('id','p'+elId[i].hash);
+		}
+
+		if(140<elId[i].el.text().length){
+			elId[i].el.addClass('dialogius')
+			//elId[i].el.addClass('disqussion')
+		}
+	}
+
+
 $(document).ready(function(){
 	//$('.title').html('<h1>'+$('.title').html()+'</h1>')
 
 	// internal link a bit higher than tag
 	function offsetAnchor() {
 		if(location.hash.length){
-			window.scrollTo(window.scrollX, window.scrollY - 30);
+			window.scrollTo(window.scrollX, window.scrollY - 31);
 		};
 	}
 	window.addEventListener("hashchange",offsetAnchor);
@@ -90,33 +117,8 @@ $(document).ready(function(){
 	
 		})
 
-	function compare(a,b) {
-	  if (a.hash < b.hash)
-	    return -1;
-	  if (a.hash > b.hash)
-	    return 1;
-	  if (a.index < b.index)
-	    return -1;
-	  return 1;
-	}
-	var elId = [];
-	$('.body>p').each(function(index){var el=$(this);elId.push({el:el, hash: flexHash('monref '+el.text()), index: index});})
-	elId.sort(compare);
+	
 
-	var n = 2
-	for (var i = 0; i < elId.length; i++) {
-		if(0<i && elId[i-1].hash===elId[i].hash){
-			elId[i].el.attr('id','p'+elId[i].hash+'_'+n++);		
-		} else {
-			n=2
-			elId[i].el.attr('id','p'+elId[i].hash);
-		}
-
-		if(140<elId[i].el.text().length){
-			elId[i].el.addClass('dialogius')
-			//elId[i].el.addClass('disqussion')
-		}
-	}
 
 	$('.dialogius').hover(function() {
 				$( this ).find('.chatlink').stop().fadeIn( 300 );
@@ -125,11 +127,11 @@ $(document).ready(function(){
 			}).each(function(){
 				el=$(this);
 				el.append(	 
-						'<div class="chatlink">'
+						'<span class="chatlink">'
 						+'<a class="share-links" href="#'+el.attr('id')+'" onclick="return headerLinkAction(\'#'+el.attr('id')+'\')" title="Direct link to this paragraph">'
 							+'<i class="fa fa-link" aria-hidden="false"></i>'
 						+'</a>'
-						+'</div>'
+						+'</span>'
 				);
 			})
 
