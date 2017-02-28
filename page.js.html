@@ -36,6 +36,7 @@ function headerLinkAction(hash){
 		} else {
 			location.hash = hash;
 		}	
+		ga('send', 'event', 'directlink', 'click', hash);
 		return false;
 	}
 
@@ -159,6 +160,8 @@ $(document).ready(function(){
 													});
 		
 	},2000) 
+
+	$('html').css('background-image', 'none');
 });
 
 </script>
